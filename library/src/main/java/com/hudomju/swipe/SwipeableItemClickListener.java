@@ -69,5 +69,10 @@ public class SwipeableItemClickListener implements RecyclerView.OnItemTouchListe
         return null;
     }
 
+    @Override
+    public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
+        // TODO
+    }
+
 }
 
